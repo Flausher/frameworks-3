@@ -1,0 +1,26 @@
+{
+  "mode": "learning",
+  "port": 3000,
+  "trustedOrigins": [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
+  ],
+  "modeProfiles": {
+    "learning": {
+      "verboseErrors": true,
+      "rateLimit": {
+        "windowMs": 60000,
+        "readMax": 80,
+        "createMax": 30
+      }
+    },
+    "production": {
+      "verboseErrors": false,
+      "rateLimit": {
+        "windowMs": 60000,
+        "readMax": 40,
+        "createMax": 10
+      }
+    }
+  }
+}
