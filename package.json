@@ -1,0 +1,27 @@
+{
+  "name": "frameworks-3",
+  "version": "1.0.0",
+  "description": "Config priority and baseline web security",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:learning": "APP_MODE=learning node src/server.js",
+    "start:production": "APP_MODE=production node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "config",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
